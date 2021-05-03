@@ -1,23 +1,12 @@
-import { Grid } from "@material-ui/core";
-import React from "react";
-import Content from "./components/Content";
-import Header from "./components/Header";
+import React from 'react'
+import FormUserInfo from './components/FormUserInfo'
 
 function App() {
   return (
-    <Grid container direction="column">
-      <Grid item>
-        <Header/>
-      </Grid>
-      <Grid item container>
-        <Grid item xs={false} sm={2} />
-        <Grid item xs={12} sm={8}>
-          <Content/>
-        </Grid>
-        <Grid item xs={false} sm={2} />
-      </Grid>
-    </Grid>
-  );
+    <div>
+      <FormUserInfo/>
+    </div>
+  )
 }
 
-export default App;
+export default App
