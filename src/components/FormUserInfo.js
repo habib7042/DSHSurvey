@@ -11,7 +11,6 @@ export class UserForm extends Component {
     this.state = {
       step: 1,
       name: "",
-      agreement: "",
       mobile: "",
       email: "",
       occupation: "",
